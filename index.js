@@ -764,18 +764,18 @@ const {
   *〘 TEXT0 〙*
   ┏━━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Tahta (Texto)*
-  ┃ _Ex : ${prefix}Tahta Mr.pato_
+  ┃ _Ex : ${prefix}Tahta Meliodas_
   ┗━━━━━━━━━━━━━━━━━━━━
   *〘 TEXTO2 〙*
   ┏━━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *${prefix}Ephoto list*
   ┃ _Lista de ephoto_
   ┠⊷️ *${prefix}Ephoto (code + Texto)*
-  ┃ _Ex : ${prefix}Ephoto 25 Mr.pato_
+  ┃ _Ex : ${prefix}Ephoto 25 Meliodas_
   ┠⊷️ *${prefix}Textpro list*
   ┃ _Lista de textpro
   ┠⊷️ *${prefix}Textpro (code + Texto)*
-  ┃ _Ex : ${prefix}Textpro 55 Mr.pato_
+  ┃ _Ex : ${prefix}Textpro 55 Meliodas_
   ┗━━━━━━━━━━━━━━━━━━━━
   *〘 IMAGENES 〙*
   ┏━━━━━━━━━━━━━━━━━━━━

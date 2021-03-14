@@ -592,10 +592,7 @@ const {
   ‣ Grupo:  *${groupName}*
   ‣ Número de grupos: *${_registered.length}*
   ‣ Número de chats: *${totalchat.length}*
-  ‣ Grupo oficial
-  • _${Wa1}_
-  ‣ Suscribete
-  _${Ig}_
+          **grita por ayuda**
   ────────────────
   ┏━━━━━━━━━━━━━━━━━━━━
   ┃─────〘 🖤MΣᄂIӨDΛƧ-BOT❤ 〙────
@@ -885,6 +882,7 @@ const {
   ┃ _Anuncio_
   ┠⊷️ *${prefix}Blocklist*
   ┃ _Lista de usuarios bloqueados_
+  ┃ 𝗢𝗪𝗡𝗘𝗥𝗦: ɱɛƖıơɖąʂ🖤ᴷᴬᴺᴱᴷᴵ 
   ┗━━━━━━━━━━━━━━━━━━━━`,
   
   contextInfo: {

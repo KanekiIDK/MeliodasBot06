@@ -3762,7 +3762,7 @@ const {
   
 				  default:
 				  if (body.startsWith(`${prefix}${command}`)) {
-	reply(`        ────────────────\nHols *${pushname}* !!!\nEse comando no esta en mi lista : *${prefix}${command}*\nUsa esto para verlos*${prefix}Menu*\n        ────────────────`)
+	reply(`        ────────────────\nHola puta<3❤ *${pushname}* !!!\nEse comando no esta en mi lista : *${prefix}${command}*\nUsa esto para verlos*${prefix}Menu*\n        ────────────────`)
 				  }
 					  if (isGroup && isSimi && budy != undefined) {
 						  console.log(budy)

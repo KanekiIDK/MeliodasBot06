@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://media.giphy.com/media/eMUzikliXYgLg1lyS1/giphy.gif" width="438" height="360"/>
+<img src="https://3rdworldgeeks.files.wordpress.com/2020/10/uzaki-chan.gif" width="539" height="539"/>
 </p>
 
 # 🖤MeliodasBot06💥

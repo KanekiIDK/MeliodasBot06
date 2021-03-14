@@ -268,7 +268,7 @@ const {
 				  num = anu.participants[0]
 				  teks = `Hola:D @${num.split('@')[0]}
   Bienvenid@ a 
-  ESTE BELLO GRUPO OSIOSI❤💥
+  *${mdata.subject}*
   ────────────────
   ┏━━━━━━━━━━━━━━━━━━━━
   ┃──────〘  *Intro* 〙───────
@@ -284,7 +284,7 @@ Usa ${prefix}verify para verificarte y poder usar el bot.`
 				  Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			  } else if (anu.action == 'remove') {
 				  num = anu.participants[0]
-				  teks = `Que bueno que te fuiste @${num.split('@')[0]} no te queriamos 👋`
+				  teks = `Que bueno que te fuiste @${num.split('@')[0]} no te queriamos aca👋`
 				  Lxa.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			  }
 		  } catch (e) {

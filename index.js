@@ -538,7 +538,7 @@ const {
   
   
   //--Auto respon
-  if(budy.match('Pato')){
+  if(budy.match('Meliodas')){
   result = fs.readFileSync(`./temp/stick/calla.webp`)
 	Lxa.sendMessage(from, result, sticker, {
   quoted: mek
@@ -975,7 +975,7 @@ const {
 	uptime = process.uptime()
 	teks = `*‣ Nombre del bot* : ${me.name}
 	‣ *Número del bot* : @${me.jid.split('@')[0]}
-	‣ *Dueño* : Mr.Pato
+	‣ *Dueño* : Meliodas
 	‣ *Prefijo* : ${prefix}
 	‣ *Usuarios bloqueados* : ${blocked.length}
 	‣ *Tiempo activo* : ${kyun(uptime)}
@@ -3117,7 +3117,7 @@ const {
 	if (err) return reply('Error al convertir el sticker en vídeo')
 	buffer = fs.readFileSync(ran)
 	Lxa.sendMessage(from, buffer, video, {
-  quoted: mek, caption: 'Mr.Pato'
+  quoted: mek, caption: 'Meliodas'
 	})
 	fs.unlinkSync(ran)
   })

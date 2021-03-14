@@ -101,8 +101,8 @@ const {
   //--Kontak
   const vcard = 'BEGIN:VCARD\n'
   + 'VERSION:3.0\n'
-  + 'FN:Mr.Pato\n' // Nama
-  + 'ORG:Mr.Pato-Bot;\n' // Nama bot
+  + 'FN:Meliodas\n' // Nama
+  + 'ORG:Meliodas-Bot;\n' // Nama bot
   + 'TEL;type=CELL;type=VOICE;waid=17693039228:+1 769 303-9223n' // Nomor bot
   + 'END:VCARD' 
   
@@ -1146,7 +1146,7 @@ const {
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-	quoted: mek, caption: `Mr.Pato-Bot`
+	quoted: mek, caption: `Meliodas-Bot`
   })
   
   } catch {
@@ -1170,7 +1170,7 @@ const {
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-	quoted: mek, caption: `Mr.Pato-Bot`
+	quoted: mek, caption: `Meliodas-Bot`
   })
   
   } catch {
@@ -1224,7 +1224,7 @@ const {
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-	quoted: mek, caption: `Mr.Pato-Bot`
+	quoted: mek, caption: `Meliodas-Bot`
   })
   
   break
@@ -1249,7 +1249,7 @@ const {
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Mr.Pato-Bot`
+  quoted: mek, caption: `Meliodas-Bot`
 	})
 	
 	} catch {
@@ -1279,7 +1279,7 @@ const {
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Mr.Pato-Bot`
+  quoted: mek, caption: `Meliodas-Bot`
 	})
 	
 	} catch {
@@ -1305,7 +1305,7 @@ const {
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Mr.Pato-Bot`
+  quoted: mek, caption: `Meliodas-Bot`
 	})
 	
 	} catch {
@@ -1331,7 +1331,7 @@ const {
 	nimek = n[Math.floor(Math.random() * n.length)];
 	pok = await getBuffer(nimek)
 	Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `Mr.pato-Bot`
+  quoted: mek, caption: `Meliodas-Bot`
 	})
 	
 	} catch {
@@ -3521,7 +3521,7 @@ const {
 						  fs.unlinkSync(medimg)
 						  if (err) return reply('No se pudo hacer :(')
 						  buffer = fs.readFileSync(ran)
-						  Lxa.sendMessage(from, buffer, image, {quoted: mek, caption: 'Mr.Pato-Bot'})
+						  Lxa.sendMessage(from, buffer, image, {quoted: mek, caption: 'Meliodas-Bot'})
 						  fs.unlinkSync(ran)
 					  })
 					  break

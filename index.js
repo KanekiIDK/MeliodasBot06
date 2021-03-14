@@ -266,20 +266,21 @@ const {
 			  console.log(anu)
 			  if (anu.action == 'add') {
 				  num = anu.participants[0]
-				  teks = `Hola @${num.split('@')[0]}
+				  teks = `Hola:D @${num.split('@')[0]}
   Bienvenid@ a 
-  *${mdata.subject}*
+  ESTE BELLO GRUPO OSIOSI❤💥
   ────────────────
   ┏━━━━━━━━━━━━━━━━━━━━
   ┃──────〘  *Intro* 〙───────
   ┃━━━━━━━━━━━━━━━━━━━━
   ┠⊷️ *Nombre* :
   ┠⊷️ *Edad* :
-  ┠⊷️ *Lugar de nacimiento* :
+  ┠⊷️ *Fotito* :
+  ┠⊷️ *Pais* :
   ┠⊷️ *Género* :
   ┗━━━━━━━━━━━━━━━━━━━━
   
-  Usa ${prefix}verify para verificarte y poder usar el bot.`
+Usa ${prefix}verify para verificarte y poder usar el bot.`
 				  Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			  } else if (anu.action == 'remove') {
 				  num = anu.participants[0]
